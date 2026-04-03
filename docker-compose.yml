@@ -1,0 +1,38 @@
+services:
+  bot:
+    build: .
+    env_file: .env
+    depends_on:
+      - redis
+      - mongo
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 256M
+
+  redis:
+    image: redis:7-alpine
+    command: redis-server --maxmemory 64mb --maxmemory-policy allkeys-lru
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: "0.25"
+          memory: 96M
+
+  mongo:
+    image: mongo:7
+    command: mongod --wiredTigerCacheSizeGB 0.25
+    volumes:
+      - mongo_data:/data/db
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 512M
+
+volumes:
+  mongo_data:

@@ -1,0 +1,95 @@
+# ── Onboarding ──
+onboarding_hello: |
+  Hey! 👋 / Привет! 👋 / Привіт! 👋
+
+  Я — <b>Notatum</b>, твой карманный блокнот 🧠
+  Выбери язык:
+onboarding_welcome: |
+  Отлично! 🎉
+
+  Я твой карманный блокнот. Просто кинь мне любое сообщение — сохраню мгновенно. Никаких кнопок!
+
+  Раскладывай по категориям, отмечай сделанное, держи всё в порядке. Погнали!
+
+# ── Dashboard ──
+dashboard_title: "📋 <b>Твои записи</b>"
+
+# ── Buttons ──
+btn_add_record: "➕ Записать"
+btn_settings: "⚙️ Настройки"
+btn_categories: "📂 Категории"
+btn_about: "ℹ️ О боте"
+btn_lang: "🌐 Язык"
+btn_back: "⬅️ Назад"
+btn_back_menu: "⬅️ Меню"
+btn_menu: "📋 Меню"
+btn_cancel: "❌ Отмена"
+btn_delete: "🗑 Удалить"
+btn_edit: "✏️ Редакт."
+btn_move: "📂 Переместить"
+btn_confirm_yes: "Да, удалить"
+btn_confirm_no: "Не, оставить"
+btn_rename: "✏️ Переименовать"
+btn_done: "✅ Готово"
+btn_undone: "↩️ Не готово"
+btn_clear_done: "🧹 Убрать ✅"
+
+# ── Settings ──
+settings_title: "⚙️ <b>Настройки</b>"
+btn_prev: "◀️"
+btn_next: "▶️"
+page_info: "{current}/{total}"
+
+# ── About ──
+about_text: |
+  <b>Notatum</b> — твоя вторая память в Telegram 🧠
+
+  Просто отправь мне текст — сохраню во Входящие. Раскладывай по категориям, отмечай сделанное — всё в одном месте.
+
+  Быстро, просто, всегда рядом ✨
+
+# ── Language ──
+lang_prompt: "Выбери язык 🌐"
+lang_changed: "Готово! Переключил на русский 🇷🇺"
+
+# ── Categories ──
+btn_add_category: "➕ Новая категория"
+categories_list: "⚙️ <b>Категории</b>"
+categories_empty: "Пока пусто. Создай первую!"
+cat_enter_name: "Как назовём? Отправь название:"
+cat_pick_emoji: "Выбери эмодзи (или отправь свой):"
+cat_created: "Категория создана! 🎉"
+cat_confirm_delete: "Удалить <b>{name}</b>? Всё внутри переедет во Входящие."
+btn_confirm_delete_yes: "Да, удалить"
+cat_deleted: "Удалено! Содержимое перенесено во Входящие 📥"
+cat_enter_new_name: "Новое название:"
+cat_renamed: "Переименовал! ✏️"
+cat_cancelled: "Ладно, отменил!"
+
+# ── Records ──
+records_list: "{category}"
+records_empty: "Пока пусто. Добавь что-нибудь!"
+rec_enter_text: "Отправь текст:"
+rec_created: "Записал! ✏️"
+rec_enter_new_text: "Отправь новый текст:"
+rec_updated: "Обновил! ✏️"
+rec_pick_category: "Куда переместить?"
+rec_moved: "Перенёс! 📂"
+rec_deleted: "Удалил! 🗑"
+rec_confirm_delete: "Удалить эту запись?"
+cleared_done: "Почистил {count} запись(ей)! 🧹"
+nothing_to_clear: "Нечего чистить — работай дальше! 💪"
+
+# ── Toggle phrases ──
+todo_done_1: "Красавчик! Так держать 💪"
+todo_done_2: "Есть! Одним делом меньше 🔥"
+todo_done_3: "Вычеркнул! Продолжай ✨"
+todo_done_4: "Огонь! 🚀"
+todo_done_5: "Готово! 🎯"
+todo_undone: "Вернул в работу 📋"
+
+# ── Quick Capture ──
+quick_saved_1: "Записал! ✏️"
+quick_saved_2: "Сохранил во Входящие 📥"
+quick_saved_3: "Запомнил! Не потеряю 🧠"
+quick_saved_4: "Готово! Твоя голова скажет спасибо ✨"

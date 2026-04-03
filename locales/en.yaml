@@ -1,0 +1,95 @@
+# ── Onboarding ──
+onboarding_hello: |
+  Hey! 👋 / Привет! 👋 / Привіт! 👋
+
+  I'm <b>Notatum</b> — your pocket notebook 🧠
+  Choose your language:
+onboarding_welcome: |
+  Awesome! 🎉
+
+  I'm your pocket notebook. Just send me any message — I'll save it instantly. No buttons needed!
+
+  Organize with categories, check things off, keep it tidy. Let's go!
+
+# ── Dashboard ──
+dashboard_title: "📋 <b>Your records</b>"
+
+# ── Buttons ──
+btn_add_record: "➕ Add"
+btn_settings: "⚙️ Settings"
+btn_categories: "📂 Categories"
+btn_about: "ℹ️ About"
+btn_lang: "🌐 Language"
+btn_back: "⬅️ Back"
+btn_back_menu: "⬅️ Menu"
+btn_menu: "📋 Menu"
+btn_cancel: "❌ Cancel"
+btn_delete: "🗑 Delete"
+btn_edit: "✏️ Edit"
+btn_move: "📂 Move"
+btn_confirm_yes: "Yes, delete"
+btn_confirm_no: "Nah, keep it"
+btn_rename: "✏️ Rename"
+btn_done: "✅ Done"
+btn_undone: "↩️ Not done"
+btn_clear_done: "🧹 Clear ✅"
+
+# ── Settings ──
+settings_title: "⚙️ <b>Settings</b>"
+btn_prev: "◀️"
+btn_next: "▶️"
+page_info: "{current}/{total}"
+
+# ── About ──
+about_text: |
+  <b>Notatum</b> — your second brain in Telegram 🧠
+
+  Just send me any text and I'll save it to Inbox. Organize with categories, check off tasks — all in one place.
+
+  Quick, simple, always here ✨
+
+# ── Language ──
+lang_prompt: "Pick your language 🌐"
+lang_changed: "Done! Switched to English 🇬🇧"
+
+# ── Categories ──
+btn_add_category: "➕ New category"
+categories_list: "⚙️ <b>Categories</b>"
+categories_empty: "No categories yet. Create one!"
+cat_enter_name: "What should we call it? Send me a name:"
+cat_pick_emoji: "Pick an emoji for it (or send your own):"
+cat_created: "Category created! 🎉"
+cat_confirm_delete: "Delete <b>{name}</b>? Everything inside moves to Inbox."
+btn_confirm_delete_yes: "Yes, delete"
+cat_deleted: "Gone! Items moved to Inbox 📥"
+cat_enter_new_name: "New name:"
+cat_renamed: "Renamed! ✏️"
+cat_cancelled: "Alright, cancelled!"
+
+# ── Records ──
+records_list: "{category}"
+records_empty: "Nothing here yet. Add something!"
+rec_enter_text: "Send me the text:"
+rec_created: "Got it! ✏️"
+rec_enter_new_text: "Send me the new text:"
+rec_updated: "Updated! ✏️"
+rec_pick_category: "Move to which category?"
+rec_moved: "Moved! 📂"
+rec_deleted: "Deleted! 🗑"
+rec_confirm_delete: "Delete this record?"
+cleared_done: "Cleared {count} done item(s)! 🧹"
+nothing_to_clear: "Nothing to clear — keep going! 💪"
+
+# ── Toggle phrases ──
+todo_done_1: "Boom! Done 💪"
+todo_done_2: "Nice one! Keep crushing it 🔥"
+todo_done_3: "One less thing to worry about ✨"
+todo_done_4: "You're on fire! 🚀"
+todo_done_5: "Checked off! 🎯"
+todo_undone: "Unmarked — back on the list 📋"
+
+# ── Quick Capture ──
+quick_saved_1: "Got it! Saved to Inbox ✏️"
+quick_saved_2: "Noted! 📥"
+quick_saved_3: "Stored! Won't forget 🧠"
+quick_saved_4: "Saved! Your brain thanks you ✨"
